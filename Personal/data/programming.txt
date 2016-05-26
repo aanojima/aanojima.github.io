@@ -1,0 +1,1 @@
+I love to program and write my own software. Some of my previous projects include applications, libraries, research tools, simulations, and games. Check out some of my projects below or on github <a href='https://github.com/aanojima'>@aanojima</a>.

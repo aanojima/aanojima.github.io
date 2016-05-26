@@ -1,0 +1,11 @@
+<h3>ACADEMIC</h3>
+
+<p>I am expected to receive my Bachelor of Science degree in <b>Computer Science and Engineering</b> (Course 6-3) in June 2016. I am interested in studying computer graphics, computer vision, and human-computer interaction. My goal is to find a career in web development, game development, map technologies, and/or augmented reality.</p>
+
+<h3>CLUBS AND ORGANIZATIONS</h3>
+
+<p>As the <b>MIT Hawaii Club</b> President and coordinate events for students from Hawaii or students who are interested in the culture of Hawaii.</p>
+
+<p>As a brother of the <b>Phi Delta Theta</b> Massachusetts Gamma chapter fraternity at MIT I have taken the roles of warden and webmaster and partake in all chapter events.</p>
+
+<p>As an undergraduate researcher for the MIT Media Lab Fluid Interfaces group and the Global Languages and Studies department I help to develop a remote language-learning application called <b>Jajan</b>.</p>

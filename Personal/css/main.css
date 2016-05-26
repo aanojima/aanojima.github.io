@@ -1,0 +1,188 @@
+body {
+	padding : 0px;
+}
+
+.content-title {
+	font-size: 36px;
+	font-weight: 700;
+	font-family: inherit;
+	color: inherit;
+	text-transform: uppercase;
+}
+
+#home {
+	background-color : rgb(223, 80, 80);
+	color: white;
+	height:100vh;
+}
+
+#home-top {
+	position: absolute;
+	top: 0px;
+	bottom: 42px;
+	width: 100%;
+}
+
+#home-top img {
+	display: block;
+	margin: auto;
+}
+
+#intro-items {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#contact-info {
+	font-size: 20px;
+}
+
+#navigation {
+	width: 100%;
+	position: absolute;
+	background-color: #000;
+	left: 0px;
+	bottom: 0px;
+}
+
+#navigation a {
+	display: inline-block;
+	margin: 10px;
+	font-size: 14px;
+	color: #999999;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+#navigation a:hover {
+	color: red;
+}
+
+#main-content {
+	width : 100%;
+}
+
+#about {
+	background: url("../images/gray-rep.jpg");
+}
+
+.bio-title {
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: inherit;
+	text-transform: uppercase;
+}
+
+.about-item {
+	display: inline-block;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.about-icon, .contact-icon {
+	width: 100px;
+	margin: 0px 20px;
+}
+
+.about-icon:hover {
+	cursor: pointer;
+}
+
+#about .content-title {
+	color: white;
+}
+
+.project {
+	display: inline-block;
+	margin: 20px;
+}
+
+.project-img {
+	border-radius: 15px;
+	height: 135px;
+	width: 240px;
+	margin: 10px;
+	-webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222); 
+}
+
+.modal-body {
+	text-align: left;
+}
+
+#projects-container {
+	max-width: 1280px;
+	margin: auto;
+}
+
+@media (max-width: 319px), (max-height: 239px){
+	body {
+		display: none;
+	}
+}
+
+@media (min-width: 319px) and (min-height: 239px) {
+	#home-top img {
+		margin: 1px auto;
+		display: block;
+	}
+
+	#signature, #portrait {
+		width: 160px;
+		height: auto;
+	}
+}
+
+@media (min-height: 399px) and (min-width: 399px) {
+	#home-top img {
+		margin: 15px auto;
+		display: block;
+	}
+
+	#portrait, #signature {
+		width: 240px;
+		height: auto;
+	}
+}
+
+@media (min-width: 768px) and (min-height: 768px) {
+	#home-top img {
+		margin: 30px auto;
+		display: block;
+	}
+
+	#portrait, #signature {
+		width: 480px;
+		height: auto;
+	}
+}
+
+@media (min-width: 992px) and (min-height: 992px) {
+	#home-top img {
+		margin: 45px auto;
+		display: block;
+	}
+
+	#portrait, #signature {
+		width: 640px;
+		height: auto;
+	}
+}
+
+@media (min-width: 1200px) and (min-height: 1200px) {
+	#home-top img {
+		margin: 60px auto;
+		display: block;
+	}
+
+	#portrait, #signature {
+		width: 800px;
+		height: auto;
+	}
+}

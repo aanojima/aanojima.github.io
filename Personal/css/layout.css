@@ -1,0 +1,184 @@
+body {
+	margin : 0px;
+	padding: 0px;
+	font-family: 'Lato', serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 1em;
+	font-weight : 100;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+#home {
+	height : 100%;
+	width : 100%;
+	background-color: rgb(208, 80, 80);
+	color : white;
+	padding-top : 0px;
+}
+
+.center-header {
+	text-align : center;
+}
+
+#home-container {
+	height : 100%;
+}
+
+#header-top {
+	position: relative;	
+	height: 70%;
+	font-size: 32;
+}
+
+#header-top img {
+    max-width : 90%;
+    max-height : 50%;
+    height : auto;
+}
+
+#header-bottom {
+	height: 30%;
+}
+
+#scroll_item {
+    height : 90%;
+	display : none;
+}
+
+#header-top img {
+	/*height : 200px;*/
+	margin-top: 5%;
+	height: 45%;
+	width: auto;
+}
+
+#header-top h2 {
+	height: 40%;
+}
+
+#navigation-container {
+	position : relative;
+	top : 0px;
+	height : 60px;
+	width : 100%;
+	background-color: black;
+	text-align : center;
+	z-index: 1;
+}
+
+#navigation-container ul {
+	margin : 0px;
+	height : 30px;
+}
+
+#navigation-container li {
+	margin : 15px 20px 0px 20px;
+	font-size: 20;
+}
+
+#navigation-container a {
+	text-decoration: none;
+	color : white;
+}
+
+.main_content {
+	position : relative;
+	height : 100%;
+	width : 100%;
+	padding-top : 60px;
+}
+
+#content {
+	position : relative;
+	margin-top : -60px;
+}
+
+.center-div {
+	padding-top : 0px;
+	text-align: center;
+}
+
+.center-text {
+	width : 1000px;
+	min-height: 560px;
+	margin : auto;
+}
+
+.profile-bio {
+	display: inline-block;
+	float : left;
+	width : 50%;
+}
+
+#profile {
+	height : 560px;
+	width : auto;
+}
+
+#bio {
+	padding : 10px;
+	height : 600px;
+	text-align: left;
+}
+
+.work-icon {
+	width : 25%;
+	margin : 50px;
+}
+
+.edu-icon {
+	width : 30%;
+	margin : 50px;
+}
+
+.proj-div {
+	display: inline-block;
+	float : left;
+	height : 300px;
+	width : 300px;
+	margin : 10px;
+}
+
+.proj-div a {
+	text-decoration: none;
+}
+
+.project-img {
+	width : 300px;
+	height : 200px;
+}
+
+.fixed_dialog {
+	position : fixed;
+	margin-top : 120px;
+}
+
+.hidden {
+	position : fixed;
+	background-color: white;
+	border : solid 5px;
+	/*top : 50%;*/
+	/*left : 50%;*/
+	/*margin-top : -200px;*/
+	/*margin-left : -400px;*/
+	/*left : 5%;
+	top : 10%;
+	margin-top : 30px;
+	width : 90%;
+	height : 80%;*/
+	top : 60px;
+	width : 500px;
+	margin : auto;
+	display : none;
+}
