@@ -1,0 +1,3 @@
+<h3>ACADEMIC</h3>
+
+<p>I am expected to receive my Master of Science degree in <b>Computer Science (Game Development)</b>  in May 2018.</p>
