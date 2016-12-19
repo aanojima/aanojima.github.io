@@ -12,6 +12,7 @@ body {
 	font-family: inherit;
 	color: inherit;
 	text-transform: uppercase;
+	margin: 20px 0px;
 }
 
 #home {
@@ -94,6 +95,14 @@ body {
 	background: url("../images/gray-rep.jpg");
 }
 
+#quote {
+	min-width: 50%;
+	max-width: 75%;
+	/*padding-top: 20px;*/
+	margin: auto;
+	color: white;
+}
+
 .bio-title {
 	color: white;
 	margin-top: 20px;
@@ -139,6 +148,9 @@ body {
 
 .modal-body {
 	text-align: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1.5px;
 }
 
 #projects-container {
