@@ -12,6 +12,9 @@ body {
 
 #home {
 	background-color : rgb(223, 80, 80);
+	background-image: url("../images/BG.jpg");
+	background-size: auto 100%;
+	background-position: 50%;
 	color: white;
 	height:100vh;
 }
@@ -26,6 +29,24 @@ body {
 #home-top img {
 	display: block;
 	margin: auto;
+}
+
+#portrait {
+	border: 5px solid rgb(223, 80, 80);
+	border-radius: 50%;
+	-moz-box-shadow: 0px 5px 15px #111;
+	-webkit-box-shadow: 0px 5px 15px #111;
+	box-shadow: 0px 5px 15px #111;
+}
+
+#signature {
+	/*background-color: rgba(63, 63, 63, 0.55);*/
+	background-color: rgba(63, 63, 63, 0.6);
+	padding: 1%;
+	border-radius: 10px;
+	-moz-box-shadow: 0px 5px 15px #111;
+	-webkit-box-shadow: 0px 5px 15px #111;
+	box-shadow: 0px 5px 15px #111;
 }
 
 #intro-items {
