@@ -16,7 +16,7 @@ body {
 }
 
 #home {
-	background-color : rgb(223, 80, 80);
+	/*background-color : rgb(223, 80, 80);*/
 	background-image: url("../images/BG.jpg");
 	background-size: auto 100%; /* see media aspect ratio below */
 	background-position: 50%;
@@ -93,6 +93,7 @@ body {
 #main-content {
 	width : 100%;
 	background-color: rgb(240, 240, 240);
+	/*background-color: transparent;*/
 }
 
 #about {

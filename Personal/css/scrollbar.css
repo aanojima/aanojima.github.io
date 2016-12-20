@@ -1,0 +1,25 @@
+/* Let's get this party started */
+body {
+	overflow-y: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}	
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
