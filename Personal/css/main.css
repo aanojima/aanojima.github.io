@@ -126,6 +126,10 @@ body {
 	text-transform: uppercase;
 }
 
+.about-title {
+	margin-top: 10px;
+}
+
 .about-item {
 	display: inline-block;
 	color: white;
